@@ -33,8 +33,9 @@
 }
 
 .logo-image {
-  width: 2rem;
-  height: 1.25rem;
+  width: $size-9;
+  height: $size-9;
+  margin-left: $size-4;
   background: url("../assets/logo.svg") no-repeat center;
   background-size: 100% 100%;
 }
@@ -131,7 +132,7 @@
       a {
         color: $textColor;
       }
-    }    
+    }
   }
 
   .nav-active {

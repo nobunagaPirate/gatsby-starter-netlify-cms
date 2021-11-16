@@ -27,16 +27,16 @@ const Header = ({ siteTitle }) => {
           <div>
             <h4>
               <Link className="logo" to="/" >
-                <div className="logo-image"></div>     
+                <div className="logo-image" />
                 {siteTitle}
               </Link>
             </h4>
           </div>
           <ul className={navClasses}>
-            <li className={navItemClasses}><a href="#">About</a></li>
-            <li className={navItemClasses}><a href="#">Pricing</a></li>
-            <li className={navItemClasses}><a href="#">Login</a></li>
-            <li className={`${navItemClasses} nav-item-bold`} ><a href="#">Sign Up</a></li>
+            <li className={navItemClasses}><a href="/">Home</a></li>
+            <li className={navItemClasses}><a href="#benefits">Benefits</a></li>
+            <li className={navItemClasses}><a href="#features">Features</a></li>
+            <li className={`${navItemClasses} nav-item-bold`} ><a href="#">Contact Us</a></li>
           </ul>
           <div className={burgerClass} onClick={toggle}>
             <div className="burger-line-1"></div>
