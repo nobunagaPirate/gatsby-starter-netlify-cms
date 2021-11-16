@@ -1,7 +1,6 @@
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React, { useState } from 'react';
-import Backdrop from './BackdropSection';
 
 const Header = ({ siteTitle }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,18 +9,14 @@ const Header = ({ siteTitle }) => {
   let navClasses = 'nav-links';
   let navItemClasses = 'nav-link-item';
   let burgerClass = "burger";
-  let backdropClass = "backdrop";
   if (isOpen) {
     navClasses = 'nav-links nav-active';
     navItemClasses = 'nav-link-item-active';
     burgerClass = "burger toggle";
-    backdropClass = "backdrop backdrop-active";
-
   }
 
   return (
     <header>
-      <Backdrop activeClass={backdropClass} click={toggle} />
       <nav className="navbar">
         <div className="nav-belt">
           <div>
@@ -33,10 +28,10 @@ const Header = ({ siteTitle }) => {
             </h4>
           </div>
           <ul className={navClasses}>
-            <li className={navItemClasses}><a href="/">Home</a></li>
+            <li className={navItemClasses}><a href="#">Home</a></li>
             <li className={navItemClasses}><a href="#benefits">Benefits</a></li>
             <li className={navItemClasses}><a href="#features">Features</a></li>
-            <li className={`${navItemClasses} nav-item-bold`} ><a href="#">Contact Us</a></li>
+            <li className={`${navItemClasses} nav-item-bold`} ><a href="#contact">Contact Us</a></li>
           </ul>
           <div className={burgerClass} onClick={toggle}>
             <div className="burger-line-1"></div>
