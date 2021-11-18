@@ -1,10 +1,11 @@
 import React from "react"
+import { t } from "../services/languageService"
 
 const ProductFeatures = ({ lang }) => {
 
   return (
     <section id="features" className="product-features">
-      <h1>Our Product Features</h1>
+      <h1>{t("productFeaturesTitle", lang)}</h1>
       <div className="core-features">
         <div className="core-feature-1">
           <div className="core-feature-3-image">
@@ -18,8 +19,8 @@ const ProductFeatures = ({ lang }) => {
                     d="M0 316c0 15 6 29 16 40l12 11c10 11 24 16 39 16s29-5 40-16l115-115a128 128 0 0 0 161-124c0-18-3-35-10-51l-1-1v-1l-1-2-1-1-1-1-2-1-1-1-1-1-1-1h-3l-2-1h-3l-2 1h-1l-2 1h-1l-1 1-2 1-1 1-68 68-33-34 67-68 1-1 1-1 1-2 1-1v-2l1-1v-1-2-1-2l-1-2v-1l-1-1v-2l-1-1-1-1-1-1-2-1-1-1-1-1h-1a128 128 0 0 0-175 150L16 276a56 56 0 0 0-16 40zM255 32l16 1-49 49a32 32 0 0 0 0 46l34 34a32 32 0 0 0 45 0l49-49 1 15a96 96 0 0 1-128 90 96 96 0 0 1 32-186zM39 299l106-106 1 2 6 8 3 4c6 8 13 15 21 22l4 2 9 6 1 1L84 344c-9 9-25 10-34 0l-11-11a24 24 0 0 1 0-34zm0 0" />
             </svg>
           </div>
-          <h2>Statistics.</h2>
-          <p>We will measure your company's growth.</p>
+          <h2>{t("productFeaturesStatsTitle", lang)}</h2>
+          <p>{t("productFeaturesStatsText", lang)}</p>
         </div>
         <div className="core-feature-3">
           <div className="core-feature-1-image">
@@ -38,8 +39,8 @@ const ProductFeatures = ({ lang }) => {
               />
             </svg>
           </div>
-          <h2>Language.</h2>
-          <p>Native speakers, high quality content.</p>
+          <h2>{t("productFeaturesLanguageTitle", lang)}</h2>
+          <p>{t("productFeaturesLanguageText", lang)}</p>
         </div>
         <div className="core-feature-2">
           <div className="core-feature-1-image">
@@ -53,8 +54,8 @@ const ProductFeatures = ({ lang }) => {
                     d="M18 1h-8a3 3 0 0 0-3 3H6a3 3 0 0 0-3 3v3a3 3 0 0 0 3 3h6a1 1 0 0 1 1 1v1a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2v-1a3 3 0 0 0-3-3H6a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3zm-3 16v4h-2v-4zm4-11a1 1 0 0 1-1 1h-8a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1z" />
             </svg>
           </div>
-          <h2>Developers.</h2>
-          <p>We will cleanup the mess.</p>
+          <h2> {t("productFeaturesDevsTitle", lang)} </h2>
+          <p> {t("productFeaturesDevsText", lang)} </p>
         </div>
       </div>
     </section>

@@ -46,7 +46,8 @@
   align-items: center;
   max-height: 50vh;
   margin: 0;
-  width: 40%;
+  min-width: 40%;
+  max-width: 50%;
   a {
     text-decoration: none;
     letter-spacing: 0.1rem;
@@ -55,6 +56,7 @@
     color: $navLabelsColor;
   }
   li {
+    padding: $size-2 $size-4;
     list-style: none;
   }
 }

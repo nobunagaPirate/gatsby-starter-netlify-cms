@@ -8,7 +8,7 @@ import CallToAction from "../components/CallToAction"
 import { SPANISH_LANG } from "../constants"
 
 const IndexPage = () => (
-  <Layout>
+  <Layout lang={SPANISH_LANG}>
     <ValueProp lang={SPANISH_LANG} />
     <ProductBenefits lang={SPANISH_LANG} />
     <ProductFeatures lang={SPANISH_LANG} />

@@ -5,13 +5,13 @@ import Header from "./Header"
 import Footer from "./Footer"
 import "../styles/index.scss"
 
-const Layout = ({ children }) => {
+const Layout = ({ lang, children }) => {
   return (
     <>
-      <Header siteTitle={"English Web"} />
+      <Header lang={lang} siteTitle={"English Web"} />
       <div className="container">
         <main className="container-main">{children}</main>
-        <Footer siteTitle={"title"} />
+        <Footer siteTitle={"EnglishWeb"} />
       </div>
     </>
   )
