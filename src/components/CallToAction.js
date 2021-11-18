@@ -1,14 +1,16 @@
-import React from 'react';
-import Button from "./Button";
+import React from "react"
+import { t } from "../services/languageService"
+import ContactButton from "./ContactButton"
 
-const CallToAction = props => {
+const CallToAction = ({ lang }) => {
 
   return (
     <section id="contact" className="cta">
-      <h1>Looking for a quote?</h1>
-      <Button label="Contact Us" />
+      {t("contactUs", lang)}
+      <h1>{t("callToActionText", lang)}</h1>
+      <ContactButton lang={lang} />
     </section>
   )
-};
+}
 
-export default CallToAction;
+export default CallToAction
