@@ -11,7 +11,7 @@ export function t(text, lang = ENGLISH_LANG) {
       "benefitsFirstSubtext": "Our statistics page is made to help you measure your company's growth so you can set and achieve your professional goals.",
       "benefitsSecond": "Multilingual Websites",
       "benefitsSecondSubtext": "Language shouldn't be a barrier between you and potential customers. That's why we offer high quality" +
-        "website translation services from native speakers in English, Croatian, Spanish, Russian & Polish.",
+        " website translation services from native speakers in English, Croatian, Spanish, Russian & Polish.",
       "benefitsThird": "Professional Developers",
       "benefitsThirdSubtext": "Experienced in-house developers available for your website at all times.",
       "productFeaturesTitle": "Our Product Features",
@@ -29,7 +29,7 @@ export function t(text, lang = ENGLISH_LANG) {
     [CROATIAN_LANG]: {
       "contactUs": "Kontaktirajte nas",
       "valuePropMainText": "Uštedite vrijeme. Zaradite više.",
-      "valuePropDesc": "Razumijemo koliko je važno imati dobru web stranicu. Zato smo okupili naše jezične i računalne" +
+      "valuePropDesc": "Razumijemo koliko je važno imati dobru web stranicu. Zato smo okupili naše jezične i računalne " +
         "stručnjake, kako bismo pomogli dosegnuti sva globalna tržišta.",
       "benefitsFirst": "Izmjerite i poboljšajte svoju statistiku",
       "benefitsFirstSubtext": "Naša je stranica statistike napravljena tako da vam pomogne izmjeriti rast tvrtke radi postavljanja i postizanja poslovnih ciljeva.",

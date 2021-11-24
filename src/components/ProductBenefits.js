@@ -11,9 +11,9 @@ const ProductBenefits = ({ lang }) => {
             {t("benefitsFirst", lang)}
           </div>
 
-          <div className="product-benefit-subtext">
+          <p className="product-benefit-subtext">
             {t("benefitsFirstSubtext", lang)}
-          </div>
+          </p>
         </div>
         <div className="product-benefit-1-image"></div>
         <div className="product-benefit-2-tagline">
@@ -21,9 +21,9 @@ const ProductBenefits = ({ lang }) => {
             {t("benefitsSecond", lang)}
           </div>
 
-          <div className="product-benefit-subtext">
+          <p className="product-benefit-subtext">
             {t("benefitsSecondSubtext", lang)}
-          </div>
+          </p>
         </div>
         <div className="product-benefit-2-image"></div>
         <div className="product-benefit-3-tagline">
@@ -31,9 +31,9 @@ const ProductBenefits = ({ lang }) => {
             {t("benefitsThird", lang)}
           </div>
 
-          <div className="product-benefit-subtext">
+          <p className="product-benefit-subtext">
             {t("benefitsThirdSubtext", lang)}
-          </div>
+          </p>
         </div>
         <div className="product-benefit-3-image"></div>
       </div>
