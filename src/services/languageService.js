@@ -5,9 +5,8 @@ export function t(text, lang = ENGLISH_LANG) {
     [ENGLISH_LANG]: {
       "contactUs": "Contact Us",
       "valuePropMainText": "Save time. Earn more.",
-      "valuePropDesc": `We understand the impact that good communication has on your business.
-That's why we've brought together our language and computer experts
-to help your business reach all markets.`,
+      "valuePropDesc": " Sell more with professionally developed and translated websites. Our " +
+        "team offers you language and computer experts to help your business reach all corners of the world",
       "benefitsFirst": "Measure and increase your statistics",
       "benefitsSecond": "High quality websites for your customers available in English, Croatian and Spanish.",
       "benefitsThird": "In house professional developers for your website at all times",
@@ -26,9 +25,9 @@ to help your business reach all markets.`,
     [CROATIAN_LANG]: {
       "contactUs": "Kontaktirajte nas",
       "valuePropMainText": "Uštedite vrijeme. Zaradite više.",
-      "valuePropDesc": `Razumijemo koliki utjecaj dobra komunikacija ima na vaše 
-poslovno okruženje. Zato smo okupili naše jezične i računalne 
-stručnjake, kako bi pomogli poslovanju na svim tržištima.`,
+      "valuePropDesc": "Poboljšajte prodaju uz profesionalno integrirane i prevedene web" +
+        "stranice. Naš tim nudi jezične i računalne stručnjake, koji će pomoći vašem" +
+        "poslovanju dosegnuti sve dijelove svijeta.",
       "benefitsFirst": "Ispitajte i povećajte svoju statistiku",
       "benefitsSecond": "Izrada vrhunskih web stranica za vaše korisnike dostupne na engleskom, hrvatskom i španjolskom jeziku.",
       "benefitsThird": "Profesionalni programeri vaših web stranica dostupni u svakom trenutku",

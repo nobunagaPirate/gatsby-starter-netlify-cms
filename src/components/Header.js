@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React, { useState } from "react"
 import { t } from "../services/languageService"
 
-const Header = ({ lang, siteTitle }) => {
+const Header = ({ lang = "en", siteTitle }) => {
   const [isOpen, setIsOpen] = useState(false)
   const toggle = () => setIsOpen(!isOpen)
 
@@ -20,7 +20,7 @@ const Header = ({ lang, siteTitle }) => {
     <header>
       <nav className="navbar">
         <div className="nav-belt">
-          <div>
+          <div className="header-lang">
             <h4>
               <Link className="logo" to="/">
                 <div className="logo-image" />
@@ -28,10 +28,12 @@ const Header = ({ lang, siteTitle }) => {
               </Link>
             </h4>
           </div>
+
           <ul className={navClasses}>
             <li className={navItemClasses}><a href="#">{t("headerHome", lang)}</a></li>
             <li className={navItemClasses}><a href="#benefits">{t("headerBenefits", lang)}</a></li>
-            <li className={navItemClasses}><a href="#features">{t("headerBenefits", lang)}</a></li>
+            <li className={navItemClasses}><a href="#features">{t("headerFeatures", lang)}</a></li>
+            {/*<li className={navItemClasses}><LanguageSelector currentLang={lang} /> </li>*/}
             <li className={`${navItemClasses} nav-item-bold`}><a href="#contact">{t("contactUs", lang)}</a></li>
           </ul>
           <div className={burgerClass} onClick={toggle}>

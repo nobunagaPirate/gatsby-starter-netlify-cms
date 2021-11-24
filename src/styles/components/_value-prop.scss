@@ -45,7 +45,7 @@
 
 @include breakpoint("from-tablet-l") {
   .value-prop-content {
-    margin: 2rem auto 3rem auto;
+    margin: $size-6 auto $size-6 auto;
   }
 
   .main-message {
