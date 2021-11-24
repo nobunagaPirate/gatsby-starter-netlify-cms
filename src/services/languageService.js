@@ -8,8 +8,12 @@ export function t(text, lang = ENGLISH_LANG) {
       "valuePropDesc": " Sell more with professionally developed and translated websites. Our " +
         "team offers you language and computer experts to help your business reach all corners of the world",
       "benefitsFirst": "Measure and increase your statistics",
-      "benefitsSecond": "High quality websites for your customers available in English, Croatian and Spanish.",
-      "benefitsThird": "In house professional developers for your website at all times",
+      "benefitsFirstSubtext": "Our statistics page is made to help you measure your company's growth so you can set and achieve your professional goals.",
+      "benefitsSecond": "Multilingual Websites",
+      "benefitsSecondSubtext": "Language shouldn't be a barrier between you and potential customers. That's why we offer high quality" +
+        "website translation services from native speakers in English, Croatian, Spanish, Russian & Polish.",
+      "benefitsThird": "Professional Developers",
+      "benefitsThirdSubtext": "Experienced in-house developers available for your website at all times.",
       "productFeaturesTitle": "Our Product Features",
       "productFeaturesStatsTitle": "Statistics.",
       "productFeaturesStatsText": "We will measure your company's growth.",
@@ -25,12 +29,14 @@ export function t(text, lang = ENGLISH_LANG) {
     [CROATIAN_LANG]: {
       "contactUs": "Kontaktirajte nas",
       "valuePropMainText": "Uštedite vrijeme. Zaradite više.",
-      "valuePropDesc": "Poboljšajte prodaju uz profesionalno integrirane i prevedene web" +
-        "stranice. Naš tim nudi jezične i računalne stručnjake, koji će pomoći vašem" +
-        "poslovanju dosegnuti sve dijelove svijeta.",
-      "benefitsFirst": "Ispitajte i povećajte svoju statistiku",
-      "benefitsSecond": "Izrada vrhunskih web stranica za vaše korisnike dostupne na engleskom, hrvatskom i španjolskom jeziku.",
-      "benefitsThird": "Profesionalni programeri vaših web stranica dostupni u svakom trenutku",
+      "valuePropDesc": "Razumijemo koliko je važno imati dobru web stranicu. Zato smo okupili naše jezične i računalne" +
+        "stručnjake, kako bismo pomogli dosegnuti sva globalna tržišta.",
+      "benefitsFirst": "Izmjerite i poboljšajte svoju statistiku",
+      "benefitsFirstSubtext": "Naša je stranica statistike napravljena tako da vam pomogne izmjeriti rast tvrtke radi postavljanja i postizanja poslovnih ciljeva.",
+      "benefitsSecond": "Višejezične web stranice",
+      "benefitsSecondSubtext": "Jezik ne bi trebao biti prepreka između vas i klijenata. Nudimo visokokvalitetne usluge prevođenja web stranica, izvornih govornika na engleskom, hrvatskom, španjolskom, ruskom i poljskom jeziku.",
+      "benefitsThird": "Profesionalni programeri",
+      "benefitsThirdSubtext": "Iskusni programeri web stranica dostupni u svakom trenutku.",
       "productFeaturesTitle": "Odlike Naših Proizvoda",
       "productFeaturesStatsTitle": "Statistike.",
       "productFeaturesStatsText": "Procijenit ćemo rast vaše tvrtke.",
