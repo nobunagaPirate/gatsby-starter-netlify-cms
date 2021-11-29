@@ -9,14 +9,11 @@ const Footer = ({ siteTitle }) => {
           &copy; 2021 {siteTitle}
         </div>
         <div className="social-media">
-          <a href="https://www.facebook.com">
-            <div className="social-facebook">Facebook</div>
-          </a>
-          <a href="https://www.twitter.com">
+          <a target="_blank" href="https://twitter.com/EnglishWeb_eu/">
             <div className="social-twitter">Twitter</div>
           </a>
-          <a href="https://www.instagram.com">
-            <div className="social-instagram">Instagram</div>
+          <a target="_blank" href="https://web.facebook.com/English-Web-103037572210974/">
+            <div className="social-facebook">Facebook</div>
           </a>
         </div>
       </div>

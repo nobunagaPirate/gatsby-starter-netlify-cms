@@ -4,6 +4,6 @@ import { t } from "../services/languageService"
 
 export default function ContactButton({ lang }) {
   return <>
-    <Button label={t("contactUs", lang)} />
+    <Button href="mailto:info@englishweb.eu" label={t("contactUs", lang)} />
   </>
 }

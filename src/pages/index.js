@@ -7,9 +7,11 @@ import ProductFeatures from "../components/ProductFeatures"
 import CallToAction from "../components/CallToAction"
 import { ENGLISH_LANG } from "../constants"
 import HeroImg from "../components/HeroImg"
+import SEO from "../components/SEO"
 
 const IndexPage = () => (
   <Layout>
+    <SEO title="English Web" description="We help you with your online presence." />
     <HeroImg />
     <ValueProp lang={ENGLISH_LANG} />
     <ProductBenefits lang={ENGLISH_LANG} />

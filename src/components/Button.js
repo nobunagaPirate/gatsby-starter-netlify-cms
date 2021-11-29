@@ -1,9 +1,19 @@
-import React from 'react';
+import React from "react"
+import PropTypes from "prop-types"
 
-const Button = ({ label }) => (
-  <button className="button">
+const Button = ({ label, href }) => (
+  <a className="button" href={href}>
     {label}
-  </button>
-);
+  </a>
+)
 
-export default Button;
+Button.defaultProps = {
+  href: "#"
+}
+
+Button.propTypes = {
+  label: PropTypes.string.isRequired,
+  href: PropTypes.string
+}
+
+export default Button

@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Landing`,
-    description: `Clean and modern landing page starter template for your next saas project launch.`,
-    siteUrl: `https://www.gatsby-landing-page-starter.com`,
-    author: `@btahir`,
+    title: `English Web`,
+    description: `Helping you improve your online presence with language and computer experts.`,
+    siteUrl: `https://englishweb.eu`,
+    author: `@englishweb`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -30,6 +30,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-    `gatsby-plugin-sitemap`  
+    `gatsby-plugin-sitemap`
   ],
 }
