@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState } from "react"
 import { t } from "../services/languageService"
+import LanguageSelector from "./LanguageSelector"
 
 const Header = ({ lang = "en", siteTitle }) => {
   const [isOpen, setIsOpen] = useState(false)
@@ -30,10 +31,10 @@ const Header = ({ lang = "en", siteTitle }) => {
           </div>
 
           <ul className={navClasses}>
+            <li className={navItemClasses}><LanguageSelector currentLang={lang} /> </li>
             <li className={navItemClasses}><a href="#">{t("headerHome", lang)}</a></li>
             <li className={navItemClasses}><a href="#benefits">{t("headerBenefits", lang)}</a></li>
             <li className={navItemClasses}><a href="#features">{t("headerFeatures", lang)}</a></li>
-            {/*<li className={navItemClasses}><LanguageSelector currentLang={lang} /> </li>*/}
             <li className={`${navItemClasses} nav-item-bold`}><a href="#contact">{t("contactUs", lang)}</a></li>
           </ul>
           <div className={burgerClass} onClick={toggle}>
