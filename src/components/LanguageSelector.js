@@ -6,7 +6,6 @@ export default function LanguageSelector() {
   return <div className="dropdown">
     <span>
       <FontAwesomeIcon icon="globe-americas" />
-       <span className="menu-arrow-down">▼</span>
     </span>
     <div className="dropdown-content">
       <p>
@@ -15,6 +14,9 @@ export default function LanguageSelector() {
       <p>
         <a href="/hr">Hrvatski</a>
       </p>
+      {/*<p>*/}
+      {/*  <a href="/ru">Pу́сский</a>*/}
+      {/*</p>*/}
     </div>
   </div>
 }
