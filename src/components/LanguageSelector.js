@@ -14,9 +14,9 @@ export default function LanguageSelector() {
       <p>
         <a href="/hr">Hrvatski</a>
       </p>
-      {/*<p>*/}
-      {/*  <a href="/ru">Pу́сский</a>*/}
-      {/*</p>*/}
+      <p>
+        <a href="/ru">Pу́сский</a>
+      </p>
     </div>
   </div>
 }
